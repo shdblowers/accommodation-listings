@@ -1,0 +1,268 @@
+{
+  "rooms": [
+    {
+      "@id": 136,
+      "@accommodation_id": 67,
+      "@available": 5,
+      "@total": 6,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 137,
+      "@accommodation_id": 67,
+      "@available": 1,
+      "@total": 1,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 138,
+      "@accommodation_id": 67,
+      "@available": 2,
+      "@total": 2,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 151,
+      "@accommodation_id": 73,
+      "@available": 1,
+      "@total": 1,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 152,
+      "@accommodation_id": 73,
+      "@available": 3,
+      "@total": 3,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 161,
+      "@accommodation_id": 78,
+      "@available": 6,
+      "@total": 9,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 207,
+      "@accommodation_id": 99,
+      "@available": 3,
+      "@total": 3,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 270,
+      "@accommodation_id": 134,
+      "@available": 24,
+      "@total": 26,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 271,
+      "@accommodation_id": 134,
+      "@available": 14,
+      "@total": 15,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 282,
+      "@accommodation_id": 140,
+      "@available": 26,
+      "@total": 26,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 283,
+      "@accommodation_id": 140,
+      "@available": 5,
+      "@total": 5,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 337,
+      "@accommodation_id": 158,
+      "@available": 3,
+      "@total": 7,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 342,
+      "@accommodation_id": 167,
+      "@available": 7,
+      "@total": 7,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 343,
+      "@accommodation_id": 161,
+      "@available": 1,
+      "@total": 1,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 344,
+      "@accommodation_id": 168,
+      "@available": 2,
+      "@total": 2,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 345,
+      "@accommodation_id": 162,
+      "@available": 1,
+      "@total": 1,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 346,
+      "@accommodation_id": 169,
+      "@available": 1,
+      "@total": 1,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 348,
+      "@accommodation_id": 170,
+      "@available": 1,
+      "@total": 1,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 364,
+      "@accommodation_id": 158,
+      "@available": 5,
+      "@total": 5,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 365,
+      "@accommodation_id": 165,
+      "@available": 7,
+      "@total": 10,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 367,
+      "@accommodation_id": 166,
+      "@available": 1,
+      "@total": 5,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 762,
+      "@accommodation_id": 263,
+      "@available": 6,
+      "@total": 9,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 998,
+      "@accommodation_id": 305,
+      "@available": 13,
+      "@total": 18,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 1000,
+      "@accommodation_id": 307,
+      "@available": 4,
+      "@total": 7,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 1001,
+      "@accommodation_id": 308,
+      "@available": 1,
+      "@total": 1,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 1552,
+      "@accommodation_id": 558,
+      "@available": 1,
+      "@total": 1,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 1602,
+      "@accommodation_id": 599,
+      "@available": 1,
+      "@total": 1,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 1673,
+      "@accommodation_id": 599,
+      "@available": 1,
+      "@total": 1,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 2956,
+      "@accommodation_id": 1031,
+      "@available": 1,
+      "@total": 1,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 2957,
+      "@accommodation_id": 1031,
+      "@available": 3,
+      "@total": 3,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 2958,
+      "@accommodation_id": 1031,
+      "@available": 6,
+      "@total": 6,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 2959,
+      "@accommodation_id": 1031,
+      "@available": 1,
+      "@total": 1,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    },
+    {
+      "@id": 2960,
+      "@accommodation_id": 1031,
+      "@available": 2,
+      "@total": 2,
+      "@current_tier_id": 1021,
+      "@freesale": false
+    }
+  ]
+}
