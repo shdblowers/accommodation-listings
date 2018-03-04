@@ -2,7 +2,7 @@ import data from './data/accommodation_data.json';
 import availabilityData from './data/accommodation_availability_data.json';
 import { find } from 'lodash';
 
-const get = () => {
+const getAccommodation = () => {
   return data['accommodations'].slice(0, 10);
 };
 
@@ -12,4 +12,4 @@ const getRoomAvailability = roomId => {
   return room ? room['@available'] : 0;
 };
 
-export { get, getRoomAvailability };
+export { getAccommodation, getRoomAvailability };

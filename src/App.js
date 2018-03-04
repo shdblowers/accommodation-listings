@@ -5,7 +5,7 @@ import { get } from './accommodation-data';
 
 class App extends Component {
   render() {
-    const accommodationData = get();
+    const accommodationData = getAccommodation();
 
     return (
       <div className="App">
