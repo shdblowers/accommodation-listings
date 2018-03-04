@@ -17,9 +17,7 @@ class Accommodation extends Component {
     const { accommodation } = this.props;
 
     const facilities = accommodation.facilities.map((facility, index) => (
-      <Col key={index} xs={4}>
-        <Panel>{facility.label}</Panel>
-      </Col>
+      <li key={index}>{facility.label}</li>
     ));
 
     return (
@@ -33,7 +31,8 @@ class Accommodation extends Component {
           <Row className="panelRow">
             <Col xs={6}>{renderHTML(accommodation.description)}</Col>
             <Col xs={6}>
-              <Row>{facilities}</Row>
+              <h4>Facilities</h4>
+              <ul className="facilitiesList text-left">{facilities}</ul>
             </Col>
           </Row>
           <Row className="panelRow">

@@ -8,3 +8,9 @@ div.panelRow {
   margin-left: 0;
   margin-right: 0;
 }
+
+ul.facilitiesList {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
