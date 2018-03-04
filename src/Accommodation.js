@@ -24,9 +24,9 @@ class Accommodation extends Component {
     ));
 
     return (
-      <Panel>
+      <Panel bsStyle="primary">
         <Panel.Heading>
-          <Panel.Title componentClass="h3">
+          <Panel.Title componentClass="h2">
             {accommodation.name} -- {accommodation.type.name}
           </Panel.Title>
         </Panel.Heading>
@@ -40,14 +40,13 @@ class Accommodation extends Component {
             </Row>
             <Row>
               <Button
-                bsStyle="primary"
-                bsSize="large"
+                bsStyle={this.state.viewRooms ? 'danger' : 'success'}
                 block
                 onClick={() =>
                   this.setState({ viewRooms: !this.state.viewRooms })
                 }
               >
-                View Rooms
+                {this.state.viewRooms ? 'Hide Rooms' : 'Show Rooms'}
               </Button>
             </Row>
             <Row>
