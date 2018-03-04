@@ -29,8 +29,10 @@ class Accommodation extends Component {
         </Panel.Heading>
         <Panel.Body>
           <Row className="panelRow">
-            <Col xs={6}>{renderHTML(accommodation.description)}</Col>
-            <Col xs={6}>
+            <Col xs={12} md={6}>
+              {renderHTML(accommodation.description)}
+            </Col>
+            <Col xs={12} md={6}>
               <h4>Facilities</h4>
               <ul className="facilitiesList text-left">{facilities}</ul>
             </Col>
