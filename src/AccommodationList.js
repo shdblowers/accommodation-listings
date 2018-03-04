@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
+import Accommodation from './Accommodation';
 
 class AccommodationList extends Component {
   render() {
-    console.log(this.props.accommodationData);
+    const { accommodationData } = this.props;
 
-    return <div />;
+    return (
+      <div>
+        {accommodationData.map(accommodation => (
+          <Accommodation
+            key={accommodation['@id']}
+            accommodation={accommodation}
+          />
+        ))}
+      </div>
+    );
   }
 }
 
