@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import { Table } from 'react-bootstrap';
 import { get } from 'lodash';
 import { getRoomAvailability } from './accommodation-data';
-
-const renderHTML = rawHTML =>
-  React.createElement('div', { dangerouslySetInnerHTML: { __html: rawHTML } });
+import { renderHTML } from './common';
 
 class RoomsTable extends Component {
   render() {

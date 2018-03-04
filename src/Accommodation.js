@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import { Panel, Row, Col, Button, Collapse } from 'react-bootstrap';
 import RoomsTable from './RoomsTable';
+import { renderHTML } from './common';
 import './Accommodation.css';
-
-const renderHTML = rawHTML =>
-  React.createElement('div', { dangerouslySetInnerHTML: { __html: rawHTML } });
 
 class Accommodation extends Component {
   constructor(props) {
