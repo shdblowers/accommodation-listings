@@ -1,0 +1,7 @@
+div.fullWidth {
+  width: 100%;
+}
+
+input.fullWidth.form-control {
+  width: 100%;
+}
