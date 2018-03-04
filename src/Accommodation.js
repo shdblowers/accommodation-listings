@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Panel, Grid, Row, Col, Button, Collapse } from 'react-bootstrap';
+import { Panel, Row, Col, Button, Collapse } from 'react-bootstrap';
 import RoomsTable from './RoomsTable';
+import './Accommodation.css';
 
 const renderHTML = rawHTML =>
   React.createElement('div', { dangerouslySetInnerHTML: { __html: rawHTML } });
@@ -24,39 +25,37 @@ class Accommodation extends Component {
     ));
 
     return (
-      <Panel bsStyle="primary">
+      <Panel bsStyle="primary" className="accommodationPanel">
         <Panel.Heading>
           <Panel.Title componentClass="h2">
             {accommodation.name} -- {accommodation.type.name}
           </Panel.Title>
         </Panel.Heading>
         <Panel.Body>
-          <Grid>
-            <Row>
-              <Col xs={6}>{renderHTML(accommodation.description)}</Col>
-              <Col xs={6}>
-                <Row>{facilities}</Row>
-              </Col>
-            </Row>
-            <Row>
-              <Button
-                bsStyle={this.state.viewRooms ? 'danger' : 'success'}
-                block
-                onClick={() =>
-                  this.setState({ viewRooms: !this.state.viewRooms })
-                }
-              >
-                {this.state.viewRooms ? 'Hide Rooms' : 'Show Rooms'}
-              </Button>
-            </Row>
-            <Row>
-              <Collapse in={this.state.viewRooms}>
-                <div>
-                  <RoomsTable rooms={accommodation.rooms} />
-                </div>
-              </Collapse>
-            </Row>
-          </Grid>
+          <Row className="panelRow">
+            <Col xs={6}>{renderHTML(accommodation.description)}</Col>
+            <Col xs={6}>
+              <Row>{facilities}</Row>
+            </Col>
+          </Row>
+          <Row className="panelRow">
+            <Button
+              bsStyle={this.state.viewRooms ? 'danger' : 'success'}
+              block
+              onClick={() =>
+                this.setState({ viewRooms: !this.state.viewRooms })
+              }
+            >
+              {this.state.viewRooms ? 'Hide Rooms' : 'Show Rooms'}
+            </Button>
+          </Row>
+          <Row className="panelRow">
+            <Collapse in={this.state.viewRooms}>
+              <div>
+                <RoomsTable rooms={accommodation.rooms} />
+              </div>
+            </Collapse>
+          </Row>
         </Panel.Body>
       </Panel>
     );
