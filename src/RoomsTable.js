@@ -38,13 +38,13 @@ class RoomsTable extends Component {
       <Table bordered hover>
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Type</th>
-            <th>Min / Max Occupancy</th>
-            <th>Description</th>
-            <th>Facilities</th>
-            <th>Price</th>
-            <th>Number Available</th>
+            <th className="text-center">Name</th>
+            <th className="text-center">Type</th>
+            <th className="text-center">Min / Max Occupancy</th>
+            <th className="text-center">Description</th>
+            <th className="text-center">Facilities</th>
+            <th className="text-center">Price</th>
+            <th className="text-center">Number Available</th>
           </tr>
         </thead>
         <tbody>{roomRows}</tbody>
