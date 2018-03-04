@@ -25,7 +25,7 @@ class RoomsTable extends Component {
         <td>{renderHTML(room.description)}</td>
         <td>{facilities}</td>
         <td>{price}</td>
-        <td>{available}</td>
+        <td>{available > 0 ? available : 'Sold Out'}</td>
       </tr>
     );
   }
