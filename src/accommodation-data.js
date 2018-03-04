@@ -1,7 +1,15 @@
-import accommodationData from './data/accommodation_data.json';
+import data from './data/accommodation_data.json';
+import availabilityData from './data/accommodation_availability_data.json';
+import { find } from 'lodash';
 
 const get = () => {
-  return accommodationData['accommodations'].slice(0, 10);
+  return data['accommodations'].slice(0, 10);
 };
 
-export { get };
+const getRoomAvailability = roomId => {
+  const room = find(availabilityData.rooms, ['@id', roomId]);
+
+  return room ? room['@available'] : 0;
+};
+
+export { get, getRoomAvailability };

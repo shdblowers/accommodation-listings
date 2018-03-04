@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Panel, Grid, Row, Col, Button, Collapse } from 'react-bootstrap';
+import RoomsTable from './RoomsTable';
 
 const renderHTML = rawHTML =>
   React.createElement('div', { dangerouslySetInnerHTML: { __html: rawHTML } });
@@ -51,7 +52,9 @@ class Accommodation extends Component {
             </Row>
             <Row>
               <Collapse in={this.state.viewRooms}>
-                <div>Rooms</div>
+                <div>
+                  <RoomsTable rooms={accommodation.rooms} />
+                </div>
               </Collapse>
             </Row>
           </Grid>
